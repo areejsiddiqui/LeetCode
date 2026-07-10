@@ -7,5 +7,6 @@ class Solution:
             if haystack[i:i+len(needle)] == needle:
                 return i
         return -1        
-
+  #Time complexity = O(n*m)
+  #space complexity = O(1)
         
